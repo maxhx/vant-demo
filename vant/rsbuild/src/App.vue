@@ -54,6 +54,7 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
+import { showToast } from "vant";
 
 const goods = ref({
   title: "美国伽力果213（约680g/3个）",
@@ -119,3 +120,4 @@ body {
   }
 }
 </style>
+
